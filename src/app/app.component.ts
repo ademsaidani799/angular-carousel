@@ -6,5 +6,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'angular-carousel';
+images = [
+  {name: "mr-cool.jpg", caption:"Mr Cool"},
+  {name: "sleeping-beauty.jpg", caption:"Sleeping Beauty"},
+  {name: "awesome.jpg", caption:"Awesome"}
+]
 }
